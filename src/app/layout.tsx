@@ -8,7 +8,10 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Job Board",
+  title: {
+    default: "Job Board",
+    template: "%s | Job Board",
+  },
   description: "Find your dream job, With Job Board.",
 };
 
