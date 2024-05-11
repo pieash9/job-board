@@ -21,6 +21,7 @@ const JobListItem = ({
     createdAt,
   },
 }: JobListItemProps) => {
+  console.log(companyLogoUrl);
   return (
     <article className="flex gap-3 rounded-lg border p-5 hover:bg-muted/60">
       <Image
