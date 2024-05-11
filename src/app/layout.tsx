@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className, "min-w-[350px]")}>
         <Navbar />
-        <div className="min-h-[calc(100vh-260px)]">{children}</div>
+        <div className="min-h-[calc(100vh-217px)]">{children}</div>
         <Footer />
       </body>
     </html>
