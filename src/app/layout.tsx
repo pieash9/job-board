@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
+import NextTopLoader from "nextjs-toploader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(inter.className, "min-w-[350px]")}>
+        <NextTopLoader />
         <Toaster />
         <Navbar />
         <div className="min-h-[calc(100vh-217px)]">{children}</div>
