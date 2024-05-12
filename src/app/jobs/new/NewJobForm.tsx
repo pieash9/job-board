@@ -22,6 +22,7 @@ import RichTextEditor from "@/components/RichTextEditor";
 import { draftToMarkdown } from "markdown-draft-js";
 import LoadingButton from "@/components/LoadingButton";
 import { createJobPosting } from "./actions";
+import { toast } from "@/components/ui/use-toast";
 
 const NewJobForm = () => {
   const form = useForm<CreateJobValues>({
@@ -49,8 +50,15 @@ const NewJobForm = () => {
 
     try {
       await createJobPosting(formData);
+      toast({
+        title: "Success",
+        description: "Your job posting has been created",
+      });
     } catch (error) {
-      alert("Something went wrong, please try again");
+      toast({
+        title: "Error",
+        description: "Something went wrong, please try again",
+      });
     }
   };
   return (
