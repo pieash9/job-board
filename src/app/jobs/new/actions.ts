@@ -54,7 +54,6 @@ export const createJobPosting = async (formData: FormData) => {
       location,
       applicationEmail: applicationEmail?.trim(),
       applicationUrl: applicationUrl?.trim(),
-      approved: true,
     },
   });
 
