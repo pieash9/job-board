@@ -18,7 +18,7 @@ This is a Job Board application built with Next.js, TypeScript, Tailwind CSS, Sh
 - **Next.js:** React framework for building server-side rendered and statically generated applications.
 - **TypeScript:** Typed superset of JavaScript for improved developer experience.
 - **Tailwind CSS:** Utility-first CSS framework for quickly building custom designs.
-- **Shadcnn:** (Assuming this is a typo, did you mean ShadowDOM or something else?)
+- **Shadcn:** UI Component
 - **Prisma:** Modern database toolkit for TypeScript and Node.js.
 - **PostgreSQL:** Powerful, open-source relational database system.
 - **Clerk:** Authentication and user management system.
