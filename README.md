@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Job Board
+
+This is a Job Board application built with Next.js, TypeScript, Tailwind CSS, Shadcnn, Prisma, PostgreSQL, and Clerk authentication.
+
+## Features
+
+- **User Authentication:** Users can sign up, log in, and log out using Clerk authentication.
+- **Job Search:** Users can search for jobs based on various criteria.
+- **Job Application:** Users can apply for jobs they are interested in.
+- **Job Posting:** Users can add new job postings to the platform.
+- **Admin Panel:** Admin routes are protected. Admins have additional privileges:
+  - Add new job postings.
+  - Approve job posts before they are published.
+  - Delete job postings.
+
+## Tech Stack
+
+- **Next.js:** React framework for building server-side rendered and statically generated applications.
+- **TypeScript:** Typed superset of JavaScript for improved developer experience.
+- **Tailwind CSS:** Utility-first CSS framework for quickly building custom designs.
+- **Shadcnn:** (Assuming this is a typo, did you mean ShadowDOM or something else?)
+- **Prisma:** Modern database toolkit for TypeScript and Node.js.
+- **PostgreSQL:** Powerful, open-source relational database system.
+- **Clerk:** Authentication and user management system.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js installed on your local machine.
+- PostgreSQL database server.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/yourusername/job-board.git
+   ```
